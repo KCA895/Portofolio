@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portofolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav style="text-align: center;">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button class="toggle-button" onclick="toggleMode()" id="modeButton">Dark Mode</button>
+    </nav>
+    <div id="home" class="container">
+        <div class="text">
+            <h1>Hello<br/>I'm Kelvin</h1>
+            <h2>Welcome to My Portofolio</h2>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/kelvin-christian-angelo/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/KCA895"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/klvinchris/"><i class="fab fa-instagram"></i></a>
+                <a href="CV Kelvin.jpeg">MY CV</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="foto.jpeg" alt="Foto Saya" width="300" height="800">
+        </div>
+    </div>
+    <div id="skills" class="skills">
+        <h1 data-aos="flip-up">Skills</h1>
+        <div class="skills-wrap" data-aos="fade-up">
+            <div class="soft">
+                <h3 data-aos="flip-left">Soft Skills</h3>
+                <ul data-aos="flip-up">
+                    <li>Communication</li>
+                    <li>Teamwork and Collaboration</li>
+                    <li>Problem Solving</li>
+                    <li>Hard work and Discipline</li>
+                    <li>Decision Making</li>
+                </ul>
+            </div>
+            <div class="hard">
+                <h3 data-aos="flip-right">Hard Skills</h3>
+                <ul data-aos="flip-up">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SEO (Search Engine Optimization)</li>
+                    <li>Ads (Google Ads, Facebook Ads)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <h2>About Me</h2>
+        <p>Sebagai mahasiswa Ilmu Komputer di Universitas Binus (Online Learning), saya memiliki semangat tinggi untuk terus mengembangkan pengetahuan dan keterampilan di dunia profesional. Saya memiliki latar belakang pendidikan yang kuat dengan IPK tinggi dan fondasi teknologi yang kokoh. 
+            <br>Dengan motivasi diri yang tinggi dan pengalaman praktis dalam e-commerce, siap memberikan kontribusi berarti dalam setiap tim atau proyek. Saya berkomitmen untuk mencapai keunggulan dan selalu terbuka terhadap tantangan baru.</br></p>
+    </div>
+    <div class="tools">
+        <h3>-- Tools --</h3>
+        <div class="tool-icons">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-figma"></i>
+            <i class="fab fa-github"></i>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="contact-container">
+            <h2 data-aos="flip-up">Contact Me</h2>
+            <p data-aos="fade-up" style="text-align: center;">Kontak saya, saya tunggu kabar dari Anda.</p>
+            <div class="contact-info" data-aos="fade-up">
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+62 822 5222 9613</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <br>kelvinchristianangelo@gmail.com
+                        <br>kelvin.angelo@binus.ac.id</br></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Medan, Sumatera Utara, Indonesia</p>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-up" id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <section id="license"></section>
+    <footer>
+        <div class="footer-container" style="text-align: center;">
+            <div class="footer-bottom">
+                <p>© Kelvin Christian Angelo. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
